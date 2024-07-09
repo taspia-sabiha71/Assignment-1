@@ -11,7 +11,11 @@ position: absolute;
 width: 1440px;
 height: 652px;
 margin: 0 auto;
-border: 2px solid red;
+top: 131px;
+bottom: 4462px;
+left: 0;
+right: 0;
+ /* border: 2px solid red;  */
 background-image: url(../assets/Hero-bg.png);
 text-align: center;
 
@@ -37,6 +41,54 @@ line-height: 23px;
 letter-spacing: 0%;
 text-align: center;
 }
+.why-web-dev{
+position: absolute;
+width: 1140px;
+height: 1395px;
+left: 148px;
+right: 148px;
+top: 857px;
+bottom: 2993px;
+
+padding: 80px 97px 80px 97px;
+border: 2px solid red;
+;background-color: rgba(13,19,33,0.02);
+}
+.why-web-dev h2{
+  font-size: 24px;
+  text-align: center;
+}
+.description-2{
+  color: rgb(81, 86, 97);
+  text-align: center;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #fff;
+}
+.card{
+  
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+  width: 300px;
+  text-align: left;
+}
+.card h3{
+  font-size: 18px;
+}
+.card button{
+  background-color: #0000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+}
+
+  
+
 
 
 
