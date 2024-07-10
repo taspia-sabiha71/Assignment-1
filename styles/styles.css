@@ -79,13 +79,52 @@ text-align: center;
   margin-bottom: 10px;
 }
 .my-inspiration {
-  padding: 20px 0;
-  text-align: center;
+  /* Frame 15 */
+position: absolute;
+width: 1140px;
+height: 777px;
+left: 148px;
+right: 152px;
+top: 2340px;
+bottom: 2128px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+padding: 0px;
+
 }
 .my-inspiration iframe {
   width: 100%;
   height: 400px;
 }
-
+.footer {
+ /* Frame 8 */
+position: absolute;
+width: 1140px;
+height: 314px;
+left: 150px;
+right: 150px;
+top: 4752px;
+bottom: 179px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 64px 48px 64px 48px;
+border-radius: 16px;
+background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),url(Email);
+background-image: url(../assets/handshake.jpg);
+}
+.footer-tital{
+  color: #fff;
+  text-align: center;
+}
+.footer-descriptin{
+  color: #fff;
+  text-align: center;
+}
 
 
